@@ -36,8 +36,12 @@ Plug 'SidOfc/carbon.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 " 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
-
-
+Plug 'lervag/wiki.vim'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'neovim/nvim-lspconfig'
+Plug 'ray-x/go.nvim'
+Plug 'ray-x/guihua.lua'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " Initialize
 call plug#end()
